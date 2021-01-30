@@ -1,10 +1,18 @@
 import styled from 'styled-components'
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
+import db from '../db.json'
+
+const BackgroundImage = styled.div`
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-image: url(${db.bg});
 `
 
 export default function Home() {
-  return <Title>Alura quiz</Title>
+  return (
+    <BackgroundImage>
+      auhauhauhauhuahauhua
+    </BackgroundImage>
+  )
 }
