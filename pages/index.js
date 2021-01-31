@@ -37,7 +37,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl='https://github.com/FernandoGOT/alura-quiz' />
+      <GitHubCorner projectUrl="https://github.com/FernandoGOT/alura-quiz" />
     </QuizBackground>
   )
 }
